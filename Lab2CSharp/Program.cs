@@ -37,6 +37,20 @@ internal class Program
                 Console.Write(a[i] + " ");
             }
         }
+        Console.WriteLine("Розмірність масиву: [n,m]");
+        int n = int.Parse(Console.ReadLine());
+        int m = int.Parse(Console.ReadLine());
+        int[,] b = new int[n, m];
+        for(int i=0;i<n;i++)
+        {
+            for(int j=-;j<m;j++)
+            {
+                if (b[i,j] % 7 != 0)
+                {
+                    Console.Write(a[i] + " ");
+                }
+            }
+        }
     }
     static void task2()
     {
